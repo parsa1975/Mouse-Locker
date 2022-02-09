@@ -1,4 +1,3 @@
-from turtle import title
 import pyautogui,keyboard
 def lu():
     return pyautogui.password(mask = '*',text = "Password",title = "Lock-Unlock")
